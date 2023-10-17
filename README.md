@@ -1,2 +1,2 @@
-# jetpack-compose-login-page
+# jetpack-compose-login
 simple jetpack compose login page
