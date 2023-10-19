@@ -27,7 +27,6 @@ import com.ozturksahinyetisir.d2p5.presentation.profile.ProfileScreen
 import com.ozturksahinyetisir.d2p5.presentation.signIn.*
 import kotlinx.coroutines.launch
 
-
 val montserratFontFamily = FontFamily(
     Font(R.font.montserrat_regular),
     Font(R.font.montserrat_bold, FontWeight.Bold))
@@ -115,7 +114,6 @@ class MainActivity : ComponentActivity() {
                             }
                         )
                     }
-
                 }
             }
                 LoginScreen()
