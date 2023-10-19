@@ -9,7 +9,10 @@
 - [Coil Compose](https://coil-kt.github.io/coil/compose/)
 - [Check API Levels](https://apilevels.com/) Also you can see cumulative usage.
 
-<h1 align="center">Screenshots</h1></br>
-<p align="center">
-<img src="https://github.com/ozturksahinyetisir/jetpack-compose-login-page/blob/main/image/mainScreen.png" width="40%">
-</p>
+<table>
+  <tr>
+    <td align="center"><p align="center"><h1 align="center">Main Screen</h1><img src="https://github.com/ozturksahinyetisir/jetpack-compose-login-page/blob/main/image/mainScreen.png" width="40%"></p>
+</td>
+    <td align="center"><p align="center"><h1 align="center">GIF of APP</h1></br><img src="https://github.com/ozturksahinyetisir/jetpack-compose-login-page/blob/main/image/d2p5.gif" width="80%"></td>
+  </tr>
+</table>
