@@ -151,10 +151,10 @@ fun LoginScreen() {
                         Toast.LENGTH_SHORT
                     ).show()
                 }
-            }
+            },colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFF192c97)),
         )
         {
-            Text("Giriş", fontFamily = montserratFontFamily,)
+            Text("Giriş", fontFamily = montserratFontFamily,color = Color.White,fontWeight = FontWeight.Bold)
         }
         Spacer(modifier = Modifier.height(16.dp))
         Button(
@@ -182,9 +182,9 @@ fun LoginScreen() {
                         Toast.LENGTH_SHORT
                     ).show()
                 }
-            }
+            },colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFF192c97)),
         ) {
-            Text("Kayıt Ol", fontFamily = montserratFontFamily)
+            Text("Kayıt Ol", fontFamily = montserratFontFamily,color = Color.White,fontWeight = FontWeight.Bold)
         }
     }
 

@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -32,9 +33,9 @@ fun SignInScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(onClick = onSignInClick,
-            colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFFFF9632))
+            colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFFF40f88))
         ) {
-            Text(text = "Firebase ile Giriş Yap")
+            Text(text = "Google ile Giriş Yap",color =Color.White,fontWeight = FontWeight.Bold)
         }
         Spacer(modifier = Modifier.height(135.dp))
     }
