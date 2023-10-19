@@ -22,7 +22,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.android.gms.auth.api.identity.Identity
-import com.ozturksahinyetisir.d2p5.presentation.basicLogin.LoginScreen
 import com.ozturksahinyetisir.d2p5.presentation.profile.ProfileScreen
 import com.ozturksahinyetisir.d2p5.presentation.signIn.*
 import kotlinx.coroutines.launch
@@ -108,7 +107,6 @@ class MainActivity : ComponentActivity() {
                                         "Signed out",
                                         Toast.LENGTH_LONG
                                     ).show()
-
                                     navController.popBackStack()
                                 }
                             }
@@ -116,11 +114,8 @@ class MainActivity : ComponentActivity() {
                     }
                 }
             }
-                LoginScreen()
         }
     }}
-
-
 }
 
 
